@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Target modern JS */
+    "target": "ES2020",
+
+    /* Use modern module system */
+    "module": "ESNext",
+
+    /* 🔥 This is the key for no `.js` imports */
+    "moduleResolution": "Bundler",
+
+    /* Project structure */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Strictness */
+    "strict": true,
+
+    /* Interop */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Quality of life */
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+
+    /* Optional but nice */
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
