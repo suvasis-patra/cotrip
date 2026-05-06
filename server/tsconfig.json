@@ -25,8 +25,9 @@
     "resolveJsonModule": true,
 
     /* Optional but nice */
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"]
   },
-  "include": ["src"],
+  "include": ["src", "dirzzle.config.ts"],
   "exclude": ["node_modules"]
 }
